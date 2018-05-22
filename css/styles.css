@@ -44,8 +44,11 @@ main {
 }
 
 main > .intro {
+	position: absolute;
+	top: 0px;
   font-family: 'Montserrat', sans-serif;
-	font-size: 3.75em;
+	font-size: 2.75em;
+	text-decoration: underline;
 	font-weight: 600;
 	color: #FFFFFF;
 }
@@ -55,12 +58,16 @@ main > .tagline {
 }
 
 main > .about {
+	position:relative;
 	margin: 1rem 0;
-	font-weight: 100
+	font-weight: 100;
+	color: #000000;
 }
 
 .icons-social i {
 	padding: 10px;
+	position: absolute;
+	bottom: 0;
 }
 
 .devto {

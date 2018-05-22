@@ -1,16 +1,19 @@
 /* Theme */
-
+body {
+	background: #00BFFF;
+	color: #FFFFFF;
+	justify-content: center;
+	text-align: center;
+}
 main {
 	background: #00BFFF;
 	color: #FFFFFF;
 }
-
 .icons-social a {
 	color: #E8EAF6;
 	font-size: 3em;
 	padding: 5px
 }
-
 .icons-social a svg path{
 	fill: #E8EAF6;
 }
